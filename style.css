@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 970px;
+    width: 100%;
+    overflow-x:hidden;
+}
+
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+    max-width: 970px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topnav a {
+    float: center;
+    color: #000000;
+    text-align: center;
+    padding: 8px 12px;
+    font-size: 12px;
+}
+
+.topnav a:hover {
+    background-color: #74be6f;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out; 
+}
+
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+
+}
+
+.topnav li {
+    display: inline;
+    float: left;
+}
+
+.topnav a {
+    display: block;
+    padding: 8px;
+    background-color: #ffffff;
+}
+
+.topmain {
+    width: 100%;
+    max-width: 970px;
+    margin: 0px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.topmain img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.login {
+    text-align: center;
+}
+
+.login ul {
+    list-style-type: none;
+    max-width: 970px;
+    width: 100%;
+    margin: 0px;
+    padding: 8px;
+    float: center;
+}
+
+.login li {
+    display: inline;
+}
+
+.login a {
+    float: center;
+    font-size: 12px;
+}
+
+.notice {
+    background-color:#FCFCFC;
+    height: 40px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
