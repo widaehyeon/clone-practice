@@ -1,4 +1,9 @@
 @charset "UTF-8";
+@media (min-width: 300px) {
+    .board-title {
+        width: 50%;
+    }
+}
 
 a {
     text-decoration: none;
@@ -96,4 +101,60 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 970px;
+}
+.board-main a:hover {
+    color: #74be6f;
+}
+
+.board {
+    margin: 0;
+    width: 310px;
+    height: 200px;
+    display: block;
+    padding: 5px;
+}
+
+.board-title {
+    width: 310px;
+    height: 22px;
+    border-radius: 5px;
+    background-color:#74be6f;
+    color:#ffffff;
+    font-size: 11px;
+    display: block;
+}
+.home{
+    display: block;
+    text-align: center;
+    float: left;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+
+.board ul {
+    list-style-type: none;
+    display: block;
+    line-height: 170%;
+    font-size: 12px;
+    color: black;
+    text-align: left;
+    padding-left: 5px;
+    margin: 5px 0px;
+}
+.more{
+    display: block;
+    float: right;
+    padding-right: 5px;
+    padding-top: 3px;
+}
+.date {
+    display: block;
+    float: right;
+    padding-right: 5px;
 }
